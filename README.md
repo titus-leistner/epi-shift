@@ -28,7 +28,7 @@ Run `python train.py --help` to see all options.
 
 To perform inference on a dataset, run
 ```sh
-python infer.py --dset path/to/hci4d/dataset/test --params prms.pt
+python infer.py --dset path/to/hci4d/dataset/test --prms path/to/parameters.pt
 ```
 The disparity maps are saved as png and pfm files to `./out`.
 

@@ -32,7 +32,7 @@ python infer.py --dset path/to/hci4d/dataset/test --params prms.pt
 The disparity maps are saved as png and pfm files to `./out`.
 
 # Paper and Citation
-The [paper](https://arxiv.org/pdf/1909.09059.pdf) was published at [3DV 2019](http://3dv19.gel.ulaval.ca) with an oral presentation. See the [project page](https://titus-leistner.de/learning-to-think-outside-the-box-wide-baseline-light-field-depth-estimation-with-epi-shift.html).
+The [paper](https://arxiv.org/pdf/1909.09059.pdf) was published at [3DV 2019](http://3dv19.gel.ulaval.ca) with an oral presentation ([project page](https://titus-leistner.de/learning-to-think-outside-the-box-wide-baseline-light-field-depth-estimation-with-epi-shift.html)).
 
 ```bibtex
 @inproceedings{Leistner2019,

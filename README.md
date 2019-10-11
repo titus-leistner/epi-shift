@@ -7,7 +7,7 @@ Learning to Think Outside the Box: Wide-Baseline Light Field Depth Estimation wi
 * Python 3.6
 * CUDA 9.2
 * cuDNN 7.6
-* [HCI 4D Lightfield Dataset](http://hci-lightfield.iwr.uni-heidelberg.de)
+* [HCI 4D Light Field Dataset](http://hci-lightfield.iwr.uni-heidelberg.de)
 
 ## Installation
 For the installation I recommend a python venv.

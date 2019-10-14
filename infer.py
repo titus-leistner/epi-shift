@@ -22,8 +22,8 @@ import process
 @click.option('--prms', default='params.pt', help='PT-file with pretrained network parameters.')
 @click.option('--dset', default='../lf-dataset/boxes', help='Location of the inference dataset.')
 @click.option('--drng', default=3, help='Disparity range, defined as [-drange, drange].')
-@click.option('--stack/--nostack', default=False, help='Use a prediction stack to improve generalisation for large baselines?')
-@click.option('--multi/--nomulti', default=False, help='Input multiple views to the architecture?')
+@click.option('--stack/--nostack', default=True, help='Use a prediction stack to improve generalisation for large baselines?')
+@click.option('--multi/--nomulti', default=True, help='Input multiple views to the architecture?')
 def main(**hp):
     # add hyper parameters
     hp['drng'] = (-hp['drng'], hp['drng'])

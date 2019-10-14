@@ -28,9 +28,9 @@ Run `python train.py --help` to see all options.
 
 To perform inference on a dataset, run
 ```sh
-python infer.py --dset path/to/hci4d/dataset/test --prms path/to/parameters.pt
+python infer.py --dset path/to/hci4d/dataset/test --prms path/to/params.pt
 ```
-The disparity maps are saved as png and pfm files to `./out`.
+The disparity maps are saved as png and pfm files to `./out`. Please download [params.pt](https://heibox.uni-heidelberg.de/f/9462fa8a9d7a4b2aa513/?dl=1) seperately.
 
 ## Paper and Citation
 The [paper](https://arxiv.org/pdf/1909.09059.pdf) was published at [3DV 2019](http://3dv19.gel.ulaval.ca) with an oral presentation ([project page](https://titus-leistner.de/learning-to-think-outside-the-box-wide-baseline-light-field-depth-estimation-with-epi-shift.html)).

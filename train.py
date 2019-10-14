@@ -27,7 +27,7 @@ import process
 @click.option('--vset', default='../lf-dataset/boxes', help='Location of the validation dataset.')
 @click.option('--drng', default=3, help='Disparity range, defined as [-drange, drange].')
 @click.option('--trng', default=0.5, help='Disparity range for training, defined as [-drange, drange].')
-@click.option('--stack/--nostack', default=False, help='Use a prediction stack to improve generalisation for large baselines?')
+@click.option('--stack/--nostack', default=True, help='Use a prediction stack to improve generalisation for large baselines?')
 @click.option('--fix/--train', default=False, help='Fix or train BatchNorm layers?')
 @click.option('--uncrt/--nouncrt', default=False, help='Use uncertainty?')
 @click.option('--rgl1/--rgmse', default=False, help='Use L1 or L2 loss for regression?')
@@ -35,7 +35,7 @@ import process
 @click.option('--rgw', default=1.0, help='Weight for regression loss')
 @click.option('--tri/--rect', default=False, help='Triangular or rectangular function for classification?')
 @click.option('--mine/--nomine', default=False, help='Hardmining for wrong classifications using MSE weighting?')
-@click.option('--multi/--nomulti', default=False, help='Input multiple views to the architecture?')
+@click.option('--multi/--nomulti', default=True, help='Input multiple views to the architecture?')
 def main(**hp):
     # add hyper parameters
     hp['drng'] = (-hp['drng'], hp['drng'])

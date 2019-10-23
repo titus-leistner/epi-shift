@@ -1,7 +1,7 @@
 click==6.7
 matplotlib==2.2.2
 numpy==1.14.5
-Pillow==5.1.0
+Pillow==6.2.0
 scikit-image==0.14.0
 scipy==1.1.0
 torch==0.4.0
